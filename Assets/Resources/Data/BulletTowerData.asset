@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a625e35f93c4f244bf8b482e76a03de, type: 3}
+  m_Name: BulletTowerData
+  m_EditorClassIdentifier: 
+  towers:
+  - tower: {fileID: 1889245177, guid: 81d14b63a57ae9d41802462f1072d56d, type: 3}
+    damage: 1
+    coolTime: 2
+    attackRange: 8
+    buildCost: 30
+    sellCost: 15
+  - tower: {fileID: 27903096240544979, guid: 00dc9496afd92f7429a2d556828c98f0, type: 3}
+    damage: 2
+    coolTime: 2
+    attackRange: 10
+    buildCost: 60
+    sellCost: 30
